@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+html {
+	scroll-behavior: smooth;
+}
+
+.logo {
+	font-weight: 700;
+	font-size: 3rem;
+	margin-left: 50px;
+}
+
+/* navbar */
+#menu-bar {
+	position: fixed;
+	top: 0;
+	z-index: 1000;
+}
+
+#navbarNav > ul > li > a {
+	font-weight: 400;
+	color: black;
+	font-size: 1.1rem;
+	padding: 0px 22px;
+}
+
+#navbarNav > ul > li > a:hover {
+	color: #7952b3;
+	transition: all ease-in-out 0.3s;
+}
+/* services */
+#services {
+	height: 100vh;
+	/* margin-bottom: 125px; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+#carouselExampleDark {
+	margin: 50px auto 0px auto;
+}
+/*  team */
+#team {
+	height: 100vh;
+	/* margin-bottom: 125px; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+/* testimonial */
+#testimonials {
+	height: 100vh;
+	/* margin-top: 125px; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+/* contact */
+#contact {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 100%;
+	margin: auto auto 50px auto;
+}
+#contact img {
+	width: 50%;
+}
+#contact h3 {
+	font-size: 32px;
+	margin: 20px;
+}
+
+.contact-input {
+	width: 400px;
+	height: 50px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.contact-input input {
+	width: 100%;
+	background: transparent;
+	border: none;
+	outline: none;
+	text-align: center;
+	color: var(--white-main-color);
+}
+.contact-input a {
+	width: 200px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--main-bg-color);
+	color: var(--white-main-color);
+	border-radius: 5px;
+	margin: auto 15px;
+	font-size: 14px;
+}
+/* Footer */
+footer {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	color: var(--white-main-color);
+}
